@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+    <link rel="stylesheet" href={% static "faqs.css" %}>
+    <title>FAQS</title>
+</head>
+<body>
+     <div class="textArea">    
+        
+        <div class="accordion"><img src="img/icon.png" width="50px">When should the first newborn care visit happen?</div>
+        <div class="panel">
+        <p>The first newborn care visit with the pediatrician happens early, 
+            <br>usually within 2 to 5 days of birth. This visit can happen while 
+               you are both still in the hospital.</p>              
+        </div> 
+        
+        <div class="accordion"><img src="img/icon.png" width="50px">What about feeding my newborn?</div>
+        <div class="panel">
+        <p> Newborn babies will want to feed every 2 to 3 hours if you are breastfeeding.
+          <br> Formula fed newborns will want to feed every 3 to 4 hours.</p>              
+        </div> 
+
+        <div class="accordion"><img src="img/icon.png" width="50px">When can I start introducing solid foods to my baby?</div>
+        <div class="panel">
+        <p>Most pediatricians recommend introducing solid foods around 6 months of age.</p>              
+        </div> 
+
+     </div>
+
+        <script>
+             
+        function toggleFunction(){
+           let togglebtn = document.getElementById("mobile-nav");
+           togglebtn.classList.toggle("toggle");
+            console.log("click");
+        }
+        </script>
+</body>
+</html>
+{% endblock %}

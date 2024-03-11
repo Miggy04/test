@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #a8e0ff;
+}
+
+#container {
+   background-image:linear-gradient(rgb(255, 255,255, .5),rgb(255, 255,255, .5)), url(img/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    margin: 40px;
+    padding: 90px;
+    background-color: white;
+    position: relative;
+    object-fit: fill;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#logo img {
+    max-width: 250px;
+    margin-left: -50px;
+    margin-top: -80px;
+}
+
+#login-img img {
+    max-width: 100px;
+    margin-right: -10px;
+    margin-top: -110px;
+}
+
+
+#logo img, #login-img img {
+    margin-inline: 10;
+}
+
+#loginForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+#loginForm form div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+input {
+    padding: 6px;
+    width: 400px;
+    height: 6vh;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+    margin-right: 160px;
+    text-align: left;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-container button {
+    padding: 5px;
+    background-color: #a8e0ff;
+    color: #585858;
+    border: 1px solid black;
+
+    cursor: pointer;
+    text-align:center;
+    margin-left: 420px;
+    width: 90px;
+}
+
+
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+}
+
+@media (min-width: 1025px) {
+   
+}

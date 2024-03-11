@@ -1,0 +1,239 @@
+/* ADMIN SIDE (CLIENT ACCOUNT) */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #A8E0FF;
+
+}
+
+.logo{
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+.logo img {
+padding: 3px;
+
+}
+.login {
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+  
+}
+
+.login img{
+width: 40px;
+margin-right:5px;
+}
+
+.logout {
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+
+  
+}
+.logout img {
+  width: 40px;
+  margin-right:5px;
+
+}
+
+.name {
+  cursor: pointer;
+  text-align:center;
+  border: 1px solid #a8e1ff;
+  width: 300px;
+  font-size: 20px;
+  align-items:baseline;
+  padding: 7px;
+  margin-right: 1200px;
+}
+
+  
+.navbar{
+  display:flex;
+  flex-direction:inherit;
+  gap: 100px;
+  list-style:none;
+  font-size: 26px;
+  text-align:center; 
+  cursor: pointer;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar li {
+    padding-bottom: 20px;
+  
+    
+}
+
+
+
+.textArea{
+    position: relative;
+    margin: 50px;
+    padding: 150px;
+    background: #FFFFFF;
+    background-image:linear-gradient(rgb(255, 255,255, .5),rgb(255, 255,255, .5)), url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+    font-size: 20px;
+    text-align:left;
+}
+
+table {
+  table-layout: fixed;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-header {
+  flex: 1;
+  border: 1px solid #000000;
+  padding: 6px;
+  text-align: center;
+  min-height: 50px;
+}
+
+.table-data {
+  flex: 1;
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+  min-height: 500px;
+  word-wrap: break-word;
+}
+
+.client_account{
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .download {
+  cursor: pointer;
+  position: absolute;
+  bottom: 600px;
+  left: 1300px;
+  }
+
+  .download img{
+     width: 30px;
+  }
+.search {
+  cursor: text;
+  text-align: left;
+  border: 1px solid #a8e1ff;
+  width: 280px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  position: absolute;
+  top: 10px;
+  left: 1000px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center; 
+}
+
+.search img {
+    width: 20px;
+    margin-left: 160px; 
+  }
+
+  .name {
+    cursor: pointer;
+    text-align:center;
+    border: 1px solid #a8e1ff;
+    width:250px;
+    font-size: 20px;
+    padding: 5px;
+     
+    
+}
+
+@media (max-width: 768px) {
+  .search {
+      width: 100%;
+      left: 0;
+      padding: 5px;
+     
+  }
+
+  .search img {
+      margin-left: 5px;
+  }
+}
+
+
+
+
+  @media (max-width:768px) {
+    
+    .logo img{
+        width: 200px;
+    }
+    .login img {
+        width: 40px;
+    }
+
+    .textArea {
+        padding: 10px;
+    }
+
+    .navbar{
+         display: none;
+    
+        
+    }
+
+  }
+
+  
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+}
+
+@media (min-width: 1025px) {
+   
+}

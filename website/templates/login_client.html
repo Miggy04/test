@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href={% static "login-client.css" %}>
+  <title>Client Login</title>
+</head>
+<body>
+
+  <div id="container">
+    <header>
+      <div id="logo"> 
+        <img src="img/bc.png" alt="logo">
+      </div>
+    </header>
+
+    <div id="loginForm">
+      <form>
+        <div>
+          <label for="username">USERNAME</label>
+          <input type="text" id="username" name="username" placeholder="">
+        </div>
+        <div>
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password" placeholder="">
+        </div>
+
+        <div class="forgot-password">
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <div class="button-container">
+          <button type="submit"><a href="client_transactions.html">LOG IN</a></button>
+        </div>
+
+
+        <div class="create-account">
+          <button type="submit"><a href="account_infromation.html">CREATE AN ACCOUNT</a></button>
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

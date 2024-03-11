@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={% static "about_us.css" %}>
+    <title>Landing Page | About Us</title>
+</head>
+
+<div class="logo">
+  <img src="img/bcare.png" alt="logo">
+  <i class="fa fa-bars" onclick="toggleFunction()" aria-hidden="true"></i>
+
+  <div class="mobile-nav" id="mobile-nav">
+      <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="faqs.html">FAQS</a></li>
+      <li><a href="">ABOUT US</a></li>
+      <li><a href="login_client.html">LOG IN</a></li>
+      </ul>
+  </div>
+  <ul class="navbar">
+     <li><a href="home.html">HOME</a></li>
+      <li><a href="faqs.html">FAQS</a></li>
+      <li class="focus"><a href="">ABOUT US</a></li>
+      <li><a href="login_client.html">LOG IN</a></li>
+  </ul>
+
+</div>
+
+<div class="textArea">
+
+  <div class="accordion"><img src="img/icon.png" width="50px">Why we created this site?</div>
+  <div class="panel">
+  <p>We created this site with the mission of providing valuable information and resources to empower parents and caregivers in their journey of raising healthy and happy children.
+     Our goal is to share reliable insights, tips, and support to make parenting a joyful experience.</p>              
+  </div> 
+
+  <div class="accordion"><img src="img/icon.png" width="50px">Our Mission and Goals</div>
+  <div class="panel">
+  <p>Our mission is to contribute to the well-being of families by offering expert advice, evidence-based information, and a supportive community.
+    <br> We aim to create a platform that fosters learning, connection, and a sense of community among parents and caregivers.</p>              
+  </div> 
+
+  <div class="accordion"><img src="img/icon.png" width="50px">Community Engagement</div>
+  <div class="panel">
+  <p>We value community engagement and encourage our users to actively participate. Join our forums, share your experiences, and connect with other parents and caregivers.
+     Together, we can create a positive and supportive online community.</p>              
+  </div> 
+    
+</div>
+
+  <script>
+       
+  function toggleFunction(){
+     let togglebtn = document.getElementById("mobile-nav");
+     togglebtn.classList.toggle("toggle");
+      console.log("click");
+  }
+  </script>
+</body>
+</html>

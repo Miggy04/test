@@ -1,0 +1,237 @@
+/* ADMIN SIDE (ARCHIVE SETTINGS(CLIENT TRANSACTION) */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #A8E0FF;
+
+}
+
+.logo{
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+.logo img {
+padding: 3px;
+
+}
+.login {
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+  
+}
+
+.login img{
+width: 40px;
+margin-right:5px;
+}
+
+.logout {
+  background-color: white;
+  display: flex; 
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+
+  
+}
+.logout .img {
+  width: 20px;
+  margin-right:5px;
+
+}
+
+
+.name {
+  cursor: pointer;
+  text-align:center;
+  border: 1px solid #a8e1ff;
+  width: 300px;
+  font-size: 20px;
+  align-items:baseline;
+  padding: 7px;
+  margin-right: 1100px;
+}
+
+  
+.navbar{
+  display:flex;
+  flex-direction:inherit;
+  gap: 100px;
+  list-style:none;
+  font-size: 26px;
+  text-align: center; 
+  cursor: pointer;
+  margin-top: 70px;
+  margin-right: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+} 
+
+  a {
+    text-decoration: none;
+  }
+
+.navbar li {
+    padding-bottom: 20px;
+  
+    
+}
+
+
+
+.textArea{
+    position: relative;
+    margin: 50px;
+    padding: 150px;
+    background: #FFFFFF;
+    background-image:linear-gradient(rgb(255, 255,255, .5),rgb(255, 255,255, .5)), url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+    font-size: 20px;
+    text-align:left;
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-header {
+  flex: 1;
+  border: 1px solid #000000;
+  padding: 6px;
+  text-align: center;
+  min-height: 50px;
+  font-size: 18px;
+}
+
+.table-data {
+  flex: 1;
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: center;
+  min-height: 500px;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+
+.archive_settings {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .transaction {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    width: fit-content;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 55px;
+    left: 1150px;
+    background: #a8e1ff; 
+  
+  }
+
+
+  .name {
+    cursor: pointer;
+    text-align:center;
+    border: 1px solid #a8e1ff;
+    width:250px;
+    font-size: 20px;
+    padding: 5px;
+     
+    
+}
+  .mobile-nav{
+    position: absolute;
+    top: 50px;
+    left: 50;
+    height: 100vh;
+    width: 100vw;
+    text-align:left;
+    z-index: 100;
+    background-color: rgb(242, 244, 246);
+    display: none;
+    font-size: 50px;
+    
+  }
+
+  .mobile-nav li{
+     margin-top: 20px;
+     padding: 10px;
+     transition: 0.3s;
+    
+   
+  }
+
+
+
+
+  @media (max-width:768px) {
+    
+    .logo img{
+        width: 200px;
+    }
+    .login img {
+        width: 40px;
+    }
+
+    .textArea {
+        padding: 10px;
+    }
+
+    .navbar{
+         display: none;
+    
+        
+    }
+
+  }
+
+  
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+}
+
+@media (min-width: 1025px) {
+   
+}

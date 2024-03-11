@@ -1,0 +1,22 @@
+{% load static %}
+<div class="logo">
+    <img src={% static "bcare.png" %} alt="logo" >
+    <i class="fa fa-bars" onclick="toggleFunction()" aria-hidden="true"></i>
+  
+    <div class="mobile-nav" id="mobile-nav">
+        <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="faqs.html">FAQS</a></li>
+        <li><a href="about_us.html">ABOUT US</a></li>
+        <li><a href="">LOG IN</a></li>
+        </ul>
+    </div>
+    <ul class="navbar"> 
+        <li><a href={% url 'home' %}>HOME</a></li>
+        <li><a href={% url 'faqs' %}>FAQS</a></li>
+        <li><a href={% url 'about_us.html' %}>ABOUT US</a></li>
+        <li class="focus"><a href={% url 'login_client.html' %}>LOG IN</a></li>
+        </div>
+    </ul>
+  
+  </div>

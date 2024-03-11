@@ -1,0 +1,167 @@
+/* LANDING PAGE (FAQS) */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #A8E0FF;
+
+}
+
+.logo{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+    
+}
+
+.navbar li {
+    padding-bottom: 20px;
+    
+}
+
+.navbar li:hover {
+    
+    transition: 0.9s; 
+    background-color: #A8E0FF;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    padding: 50px; 
+}
+
+
+.focus{
+    background-color: #A8E0FF;
+}
+
+.textArea{
+    position: relative;
+    margin: 50px;
+    padding: 100px;
+    background: #FFFFFF;
+    background-image:linear-gradient(rgb(255, 255,255, .5),rgb(255, 255,255, .5)), url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    background-size: cover;
+
+}
+
+ 
+
+.accordion {
+    background-color: #8ecff269;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #a8e1ff; 
+  }
+  
+  .panel {
+    font-size: 20px;
+    padding: 20px 18px;
+    display: none;
+    background-color: #ffffffa4;
+    overflow: hidden;
+  }
+ 
+  .fa-bars{
+    display: none;
+    padding: 10px;
+  }
+
+  .mobile-nav{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    z-index: 100;
+    background-color: #3cb7f9;
+    display: none;
+    
+  }
+
+  .mobile-nav li{
+     margin-top: 20px;
+     padding: 10px;
+     transition: 0.3s;
+   
+  }
+
+  .mobile-nav li:hover{
+     
+    background-color: #34afec;
+ }
+
+  .mobile-nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+ .toggle{
+    display: block;
+    
+ }
+
+  @media (max-width:768px) {
+    
+    .logo img{
+        width: 200px;
+    }
+
+    .textArea {
+        padding: 10px;
+    }
+
+    .navbar{
+         display: none;
+        
+    }
+
+    .fa-bars{
+        display: flex;
+    }
+
+  }
+
+  
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+}
+
+@media (min-width: 1025px) {
+   
+}

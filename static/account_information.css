@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: #A8E0FF;
+    margin: 0;
+
+}
+.container {
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#container1 {
+    position: relative;
+    padding: 90px;
+    text-align: justify;
+    background-position: center;
+    height: 20vh;
+    margin-top: 20px;
+    object-fit: fill;
+    max-width: 1500px;
+    width: 100%;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    margin: fixed;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.logo img{
+    display: flex; 
+    max-width: 550px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+}
+
+.reg{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+    
+.logo1 img{
+    display: flex; 
+    align-items: center;
+    max-width: 40px;
+    margin-left: 300px;
+}
+
+P {
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    margin-top: 18px;
+    margin-left: 38px;
+}
+
+#container2 {
+    position: relative;
+    padding: 500px;
+    text-align: left;
+    background-position: center;
+    height: 230vh;
+    margin-top: 20px;
+    object-fit: fill;
+    max-width: 1500px;
+    width: 95%;
+    position:relative;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    resize: horizontal;
+    margin: 32px;
+}
+
+input {
+    padding: 6px;
+
+}
+
+#regForm {
+    width: 300px;
+  }
+  
+  #regForm div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    width: 180px; 
+    padding: 5px; 
+  }
+
+
+#loginForm form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 80px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 20px;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+#loginForm form div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+    height: 6vh;
+    box-sizing: border-box;
+    border: 1px solid #130000;
+    border-radius: 2px;
+    margin-left: 20px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.button-container button {
+    padding: 10px;
+    background-color: #a8e0ff;
+    color: #585858;
+    border: 1px solid black;
+    cursor: pointer;
+    text-align:center;
+    margin-left: 800px;
+    width: 100px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#gender {
+    width: 150px; 
+    margin-left: 117px
+}
+
+#height {
+    width: 150px; 
+    margin-left: 123px;
+}
+
+#months {
+    width: 150px;
+    margin-left: 116px
+}
+
+#weight {
+    width: 150px; 
+    margin-left: 119px
+}
+#allergies {
+    margin-left: 100px
+}
+#address {
+    margin-left: 109px
+}
+#last-name {
+    margin-left: 83px
+}
+#middle-name {
+    margin-left: 55px
+}
+#first-name {
+    margin-left: 81px
+}
+#username {
+    margin-left: 96px
+}
+#password {
+    margin-left: 100px
+}
+#re-password {
+    margin-left: 65px
+}
+#mother-name {
+    margin-left: 100px
+}
+#mother-occ {
+    margin-left: 45px
+}
+#father-name {
+    margin-left: 110px
+}
+#father-occ {
+    margin-left: 55px
+}
+#guardian-name {
+    margin-left: 80px
+}
+#guardian-occ{
+    margin-left: 24px
+}
+#guardian-email {
+    margin-left: 80px
+}
+#guardian-phone {
+    margin-left: 75px
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   
+}
+
+@media (min-width: 1025px) {
+    
+}
